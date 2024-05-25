@@ -20,6 +20,8 @@ docker exec -it streamlit-ollama ollama run llama3
 
 This downloads your model into the `./data/ollama` folder, which internally maps to `/root/.ollama` in the container. (BTW, when you run the LLM, it will be served on port 11434, which the streamlit app queries.)
 
+![](images/diagram.png)
+
 
 ## Background
 
