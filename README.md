@@ -2,7 +2,7 @@
 
 Using Facebook's Llama 3, this is my Streamlit app, which leverages creates two docker containers, one of which is the LLM that will run *locally* on your machine (which might be slow) and the other is the front-end application, which is served on `localhost:8501`. There are options to fine-tune Llama 3, but a more effective approach is to simply have Llama pull from a database that I create, i.e., Retrieval Augmented Generation (RAG).
 
-![](images/chatbost-screenshot.jpg)
+![](images/chatbot-screenshot.jpg)
 
 In order to use this repository, you would
 
